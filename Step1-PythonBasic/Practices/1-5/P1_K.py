@@ -6,6 +6,7 @@ print "this is fun."
 print 'Yay!Printing'
 print "I'd much rather your 'not'."
 print 'I "said" do not touch this.'
+print "1f645df"
 
 # 加分练习
 print "add more than one line"
