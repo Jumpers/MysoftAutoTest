@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 x = "There are %d tyoes of people." %10
 binary = "binary"
 do_not = "don't"
