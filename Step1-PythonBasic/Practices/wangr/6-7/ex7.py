@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 s = 'snow'
 
 print "Mary had a little lamb."
@@ -23,3 +24,8 @@ end12 = 'r'
 # watch that comma at the end. try removing it to see what happens
 print end1,end2+end3+end4+end5+end6,
 print end7+end8+end9+end10+end11+end12
+
+# print end1，print end2   # 报错 ：invalid syntax
+# print a,
+# print b
+# 这样打印出来就不会换行了，中间有一个空格，不能直接在逗号后面写print，还换行再写，这样打印就是在同一行

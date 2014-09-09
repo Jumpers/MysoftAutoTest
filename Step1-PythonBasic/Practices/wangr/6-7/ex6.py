@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-x = "There are %d types of people." %10
+x = '''There are %d types of people.''' %10
+x1 = 'There are %d types of people.' %10
+x2 = "There are %d types of people." %10
 binary = "binary"
 do_not = "don't"
 y = "Those who know %s and those who %s." %(binary,do_not)
@@ -10,9 +12,13 @@ c = "I love my home! %d"
                                                                      
 print x
 print y
-print "I said: %r." %x
+print x,
+print y 
+print "I said: %r %r %r." %(x,x1,x2)
 print "I said: '%r'."
+print "I said: '''%r'''." %x
 print "I said: '%r'." %x
+print "I said: ''%r''." %x
 
 print "I also said: '%s'." %y
 print "I also said: %s," %y
