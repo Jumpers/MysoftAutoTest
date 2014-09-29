@@ -14,7 +14,7 @@
 # hehe = raw_input("comeon baby!")
 # 
 # print hehe
-
+hello=100
 A=input("Please enter A")
 B=raw_input("Please enter B")
 print type(A),type(B)
