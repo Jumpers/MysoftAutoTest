@@ -14,24 +14,24 @@
 # hehe = raw_input("comeon baby!")
 # 
 # print hehe
-
-# A=input("Please enter A")
-# B=raw_input("Please enter B")
-# print type(A),type(B)
-# print A,B
+hello=100
+A=input("Please enter A")
+B=raw_input("Please enter B")
+print type(A),type(B)
+print A,B
 
 
 
 #练习12
-raw_input_A = input("raw_input:")
-print raw_input_A
-
-age = raw_input("How old are you? ")
-height = raw_input("How tall are you?　")
-weight = raw_input("How much do you weigh? ")
- 
-print "So, you're %r old, %r tall and %r heavy." % (age,height,weight)
- 
+# raw_input_A = input("raw_input:")
+# print raw_input_A
+#  
+# age = raw_input("How old are you? ")
+# height = raw_input("How tall are you?　")
+# weight = raw_input("How much do you weigh? ")
+#   
+# print "So, you're %r old, %r tall and %r heavy." % (age,height,weight)
+#   
 # 练习13
 # from sys import argv
 #   
@@ -41,5 +41,6 @@ print "So, you're %r old, %r tall and %r heavy." % (age,height,weight)
 # print "Your first variable is:", first
 # print "Your second variable is:", second
 # print "Your third variable is:", third
+
 
 
