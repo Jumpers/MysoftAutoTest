@@ -29,7 +29,7 @@ print "垂直制表符：\n","hello\vworld"#为什么打印出来的是方格？
 print "\o111"
 print "\x66"
 
-while True:
+while False:
     for i in ["/","-","|","\\","|"]:
         print "%s\r"%i,
 
