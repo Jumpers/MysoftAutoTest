@@ -1,0 +1,10 @@
+filename=raw_input("filename:")
+txt=open(filename,'w')
+txt.write('line1''\n''line2''\n''line3''\n')
+txt.close()
+txt1=open(filename,'a')
+txt1.write('yuxq,likai,hhhhh''\n''hkhkhk''\n')
+txt1.close()
+txt2=open(filename)
+print txt2.read()
+
