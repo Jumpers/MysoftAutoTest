@@ -12,7 +12,7 @@ print "Opening the file..."
 target = open(filename, 'w')
 
 print "Truncating the file. Goodbye!"
-target.truncate()
+target.truncate()#文字截断
 
 print "Now I'm going to ask you for three lines."
 
