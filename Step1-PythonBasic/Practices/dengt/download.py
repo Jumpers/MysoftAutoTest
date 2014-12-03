@@ -3,8 +3,12 @@ import sys
 import urllib2
 
 def geturl():
+   while True:
     url = raw_input("Give me an url!hurry up! you son of @#$%\n")
-    return url
+    if len(url) == 0 :
+       print "please input the url."
+       break
+   return url
 
 def getfull_path(url):
     file_name = str(url.split("/")[-1])
