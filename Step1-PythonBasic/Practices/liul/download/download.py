@@ -1,14 +1,17 @@
 #-*-coding:utf-8-*-
 import os 
 import sys 
-import urllib2  
-
+import urllib2 
 #输入url
 def getUrl():
     while True:
-        url = raw_input("please input your url:")
-        if url == None or url != r'http://www.baidu.com/img/bdlogo.png':#url为空的情况下退出
-            print "不合法的输入！"
+        try:
+            url = raw_input("please input your url:")
+            if url != r'http://www.baidu.com/img/bdlogo.png':#url为空的情况下退出
+                print "不合法的输入！"    
+        except IndexError ,e :
+            #if url != r'http://www.baidu.com/img/bdlogo.png':#url为空的情况下退出
+            #print "不合法的输入！"
             break
         return url
 
@@ -24,6 +27,7 @@ def getDest():
 def getDF(url):
     df = urllib2.urlopen(url)
     return df
+
 
 #获取尺寸
 def getSize(df):
