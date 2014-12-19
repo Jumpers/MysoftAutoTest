@@ -5,6 +5,6 @@ def order(New_word):
     print New_word
 
 if __name__ == '__main__':
-    word = raw_input()
+    word = raw_input("Tell me what do you want to order,split it with space.\n")
     order(word)
 
