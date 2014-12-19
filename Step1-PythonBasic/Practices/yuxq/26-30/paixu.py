@@ -6,6 +6,7 @@ def break_words(stuff):
 
 words=break_words('are you right')
 words.sort()
-
 print words
 
+a=sorted(('are','you','right'))
+print a
