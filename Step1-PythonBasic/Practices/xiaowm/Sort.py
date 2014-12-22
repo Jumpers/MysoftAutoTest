@@ -44,9 +44,6 @@ def cmpList(str1,str2,order='Asce'):
                 else:
                     x+=1
                     continue                
-    else:
-        print 'the order parameters is not right.'
-        sys.exit()
     return resultList
 
 def sort(list1,order='Asec'):
@@ -85,6 +82,6 @@ def sort(list1,order='Asec'):
 if __name__=='__main__':
     list2=['1a','aa','b2','bb','c!c','c']
     print sort(list2,'Asce')
-    print sort(list2,'Desc')
+    print sort(list2,'Desb')
 
 
